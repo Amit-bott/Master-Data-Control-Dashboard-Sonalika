@@ -10,9 +10,7 @@ import time
 import json
 from datetime import datetime
 
-# ─────────────────────────────────────────────────────────────────────────────
-#  DATABASE
-# ─────────────────────────────────────────────────────────────────────────────
+
 DB_PATH = "master_dashboard.db"
 
 def get_conn():
@@ -1308,3 +1306,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
